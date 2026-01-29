@@ -1,0 +1,9 @@
+This project investigates the distribution of endangered species across geographic regions by using large-scale ecological datasets sourced from the IUCN Red List of Threatened Species and the GBIF (Global Biodiversity Information Facility). It was developed as a data pipeline to clean, merge, and visualize complex biodiversity information.
+
+The goal of this project was to quantify and compare the proportion of endangered species across different geographical territories by integrating the geographical information of the location of animal species with a database containing species and their threat levels.
+
+Primary libraries: Pandas (Data Wrangling), Matplotlib (visualization)
+
+Directory structure:
+- /content/drive/MyDrive/Biodiversity Data/ represents the primary storage for the raw .zip file
+- /content/biodiversity_analysis/ represents the local extraction directory for active processing
